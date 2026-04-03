@@ -14,7 +14,7 @@
                 
                 <a href="/detail"><div style="height: 200px; background: #eee url('https://placehold.co/400x300/E8F8F5/1ABC9C?text=Top+Product') center/cover;"></div></a>
                 <div style="padding: 20px; text-align: left;">
-                    <h4 style="margin: 0; font-size: 1.2rem;">Basreng Pedas Pol</h4>
+                    <h4 style="margin: 0; font-size: 1.2rem;">Basreng Pedas Poll</h4>
                     <p style="margin: 5px 0 15px 0; font-size: 0.9rem;"><a href="/toko" style="color: #3498DB; text-decoration: none; font-weight: bold;">Koperasi Siswa</a></p>
                     <div style="display: flex; justify-content: space-between; align-items: center;">
                         <h3 style="margin: 0; color: #E67E22;">Rp 5.000</h3>
