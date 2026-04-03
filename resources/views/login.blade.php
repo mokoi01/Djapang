@@ -35,7 +35,7 @@
             <input type="password" placeholder="Masukkan Password">
         </div>
         
-        <button class="btn-auth" onclick="window.location.href='/'">MASUK</button>
+        <button class="btn-auth" onclick="window.location.href='/home'">MASUK</button>
         
         <p style="margin-top: 20px; color: #7f8c8d; font-size: 0.9rem;">
             Belum punya akun? <a href="/register" style="color: #3498DB; font-weight: bold; text-decoration: none;">Daftar</a>

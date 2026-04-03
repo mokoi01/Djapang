@@ -2,34 +2,16 @@
 
 use Illuminate\Support\Facades\Route;
 
+// ==========================================
+// 1. HALAMAN AWAL (Otomatis ke Login)
+// ==========================================
 Route::get('/', function () {
-    return view('home');
+    return redirect('/login'); 
 });
 
-Route::get('/detail', function () {
-    return view('detail');
-});
-
-Route::get('/cart', function () {
-    return view('cart');
-});
-
-Route::get('/profil', function () {
-    return view('profil');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Route::get('/top', function () {
-    return view('top');
-});
-
-Route::get('/toko', function () {
-    return view('toko');
-});
-
+// ==========================================
+// 2. ROUTE LUAR (File yang tidak di dalam folder)
+// ==========================================
 Route::get('/login', function () {
     return view('login');
 });
@@ -38,40 +20,70 @@ Route::get('/register', function () {
     return view('register');
 });
 
+// ==========================================
+// 3. ROUTE USER (File di dalam folder User)
+// ==========================================
+Route::get('/home', function () {
+    return view('User.home');
+});
+
+Route::get('/detail', function () {
+    return view('User.detail');
+});
+
+Route::get('/cart', function () {
+    return view('User.cart');
+});
+
+Route::get('/profil', function () {
+    return view('User.profil');
+});
+
+Route::get('/contact', function () {
+    return view('User.contact');
+});
+
+Route::get('/top', function () {
+    return view('User.top');
+});
+
+Route::get('/toko', function () {
+    return view('User.toko');
+});
+
+Route::get('/pengajuan-jualan', function () {
+    return view('User.pengajuan-jualan'); 
+});
+
+Route::get('/menunggu-verifikasi', function () {
+    return view('User.menunggu-verifikasi');
+});
+
+Route::post('/menunggu-verifikasi', function () {
+    return view('User.menunggu-verifikasi');
+});
+
+Route::get('/tambah-produk', function () {
+    return view('User.tambah-produk');
+});
+
+
+// ==========================================
+// 4. ROUTE ADMIN (File di dalam folder Admin)
+// ==========================================
 Route::get('/admin/login', function () {
-    return view('admin-login');
+    return view('Admin.admin-login');
 });
 
 Route::get('/admin/dashboard', function () {
-    return view('admin-dashboard');
+    return view('Admin.admin-dashboard');
 });
 
-// Route untuk halaman form pengajuan jualan
-Route::get('/pengajuan-jualan', function () {
-    return view('pengajuan-jualan'); 
-});
-
-// Route bawaan kamu sebelumnya (biarkan saja)
-Route::get('/menunggu-verifikasi', function () {
-    return view('menunggu-verifikasi');
-});
-
-// TAMBAHKAN ROUTE INI UNTUK MENERIMA SUBMIT FORM (POST)
-Route::post('/menunggu-verifikasi', function () {
-    return view('menunggu-verifikasi');
-});
-
-// Route untuk halaman dashboard penjual
 Route::get('/dashboard-penjual', function () {
-    return view('dashboard-penjual');
+    return view('Admin.dashboard-penjual');
 });
 
-// Route untuk halaman tambah/edit produk
-Route::get('/tambah-produk', function () {
-    return view('tambah-produk');
-});
-
-// Route POST simulasi untuk submit form tambah produk
+// Route POST simulasi untuk submit form tambah produk penjual
 Route::post('/dashboard-penjual', function () {
-    return view('dashboard-penjual');
+    return view('Admin.dashboard-penjual');
 });

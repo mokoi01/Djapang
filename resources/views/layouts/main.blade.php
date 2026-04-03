@@ -65,11 +65,11 @@
 <body>
 
     <nav class="navbar">
-        <div class="logo"><a href="/" style="text-decoration:none;"><strong>DJAPANG.</strong></a></div>
+        <div class="logo"><a href="/home" style="text-decoration:none;"><strong>DJAPANG.</strong></a></div>
         <div class="nav-links">
-            <a href="/" class="{{ Request::is('/') ? 'active' : '' }}">Beranda</a>
-            <a href="/top" class="{{ Request::is('top') ? 'active' : '' }}">Top Jajanan</a>
-            <a href="/contact" class="{{ Request::is('contact') ? 'active' : '' }}">Contact</a>
+            <a href="/home" class="{{ Request::is('/home') ? 'active' : '' }}">Beranda</a>
+            <a href="/top" class="{{ Request::is('/top') ? 'active' : '' }}">Top Jajanan</a>
+            <a href="/contact" class="{{ Request::is('/contact') ? 'active' : '' }}">Contact</a>
         </div>
         <div class="icons">
             <a href="/cart">🛒</a>
