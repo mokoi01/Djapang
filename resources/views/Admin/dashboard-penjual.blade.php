@@ -78,7 +78,14 @@
                         <td>2x Risol Mayo</td>
                         <td>Rp 6.000</td>
                         <td><span class="badge badge-pending">Menunggu</span></td>
-                        <td><button style="background:#3498DB; color:white; border:none; padding:5px 10px; border-radius:5px; cursor:pointer;">Terima</button></td>
+                        <td>
+                        <a href="https://wa.me/62895636930902?text=Halo%20saya%20sudah%20menerima" target="_blank">
+                            <button style="background:#3498DB; color:white; border:none; padding:5px 10px; border-radius:5px; cursor:pointer;">
+                            Terima
+                            </button>
+                        </a>
+                        </td>
+
                     </tr>
                     <tr>
                         <td>Siti (XII AKL)</td>

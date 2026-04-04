@@ -7,22 +7,22 @@
             <div style="width: 100px; height: 100px; background-color: #E8DAEF; border-radius: 50%; margin: 0 auto 10px; display: flex; justify-content: center; align-items: center; border: 3px solid #9B59B6;">
                 <span style="font-size: 3rem;">👤</span>
             </div>
-            <h2 style="margin: 0; color: #333;">{{ auth()->user()->name ?? 'Kendra' }}</h2>
-            <p style="margin: 5px 0 0 0; color: #7f8c8d; font-weight: bold;">Siswa - XI RPL 2</p>
+            <h2 style="margin: 0; color: #333;">{{ auth()->user()->name ?? 'suchao' }}</h2>
+            <p style="margin: 5px 0 0 0; color: #7f8c8d; font-weight: bold;">Siswa - X PPLG 3</p>
         </div>
 
         <div style="margin-bottom: 30px;">
             <div style="margin-bottom: 15px;">
                 <label style="font-weight: bold; color: #555;">Nama Lengkap:</label>
-                <input type="text" value="Kendra" readonly style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc; background-color: #f5f5f5; margin-top: 5px; box-sizing: border-box;">
+                <input type="text" value="suchao" readonly style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc; background-color: #f5f5f5; margin-top: 5px; box-sizing: border-box;">
             </div>
             <div style="margin-bottom: 15px;">
                 <label style="font-weight: bold; color: #555;">Kelas / Jurusan:</label>
-                <input type="text" value="XI RPL 2" readonly style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc; background-color: #f5f5f5; margin-top: 5px; box-sizing: border-box;">
+                <input type="text" value="X PPLG 3" readonly style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc; background-color: #f5f5f5; margin-top: 5px; box-sizing: border-box;">
             </div>
             <div style="margin-bottom: 15px;">
                 <label style="font-weight: bold; color: #555;">No WA (Untuk Sistem):</label>
-                <input type="text" value="08123456789" readonly style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc; background-color: #f5f5f5; margin-top: 5px; box-sizing: border-box;">
+                <input type="text" value="087839524672" readonly style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc; background-color: #f5f5f5; margin-top: 5px; box-sizing: border-box;">
             </div>
         </div>
 

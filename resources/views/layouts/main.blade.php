@@ -65,7 +65,7 @@
 <body>
 
     <nav class="navbar">
-        <div class="logo"><a href="/home" style="text-decoration:none;"><strong>DJAPANG.</strong></a></div>
+        <div class="logo"><a href="/home" style="text-decoration:none;"><strong>DJAPANG</strong></a></div>
         <div class="nav-links">
             <a href="/home" class="{{ Request::is('/home') ? 'active' : '' }}">Beranda</a>
             <a href="/top" class="{{ Request::is('/top') ? 'active' : '' }}">Top Jajanan</a>
